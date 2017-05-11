@@ -1,47 +1,81 @@
 /*fonts*/
+/*font-family: 'Permanent Marker', cursive;
+font-family: 'Noto Sans', sans-serif;*/
 
+body, html{
+    min-width: 300px;
+    position: relative;
+    margin: 0;
+}
 
+h1, h2, h3 {
+    font-family: 'Permanent Marker', cursive;
+}
+h4{
+    font-family: 'Noto Sans', sans-serif;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 24pt;
+}
+.site-header {
+	position: absolute;
+	top: 0; right: 0; left: 0;
+	z-index: $z-header;
+    background-image: url("assets/banner.png");
+    height: 550px;
+}
 .logo{
-
+    padding: 20px;
 }
-.primary-nav{
-
+.primary-nav a{
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    padding: 0 20px;
 }
+
 .order{
-
+    float: right;
+    margin-right: 30px;
 }
 .site-wrapper{
-margin: none;
+margin: 0;
 }
 .site-footer{
     background-color: #341402;
-    height: 240px;
-    width:100%;
-    margin: none;
+    height: 100%;
+    margin: 0;
+    padding-top: 3px;
 }
 
 .inner{
-    height: 80px;
+    height: auto;
     color: #fff;
     text-align: center;
-    padding-top: 20px;
+
 }
 #social{
     margin: 10px 0;
-    height: 100px;
+    height: 40px;
+    /*background-color: green;*/
 }
 #social-icons{
     padding: 0;
-    margin-left: 10px 0;
+    margin-left: 0;
     text-align: center;
+    /*background-color: red;*/
 }
 #social-icons li{
     display: inline-block;
-    width: 300px;
+    width: 150px;
     margin: 5px 0;
+    /*background-color: yellow;*/
 }
 #social-icons li a{
-    padding: 5px 20px;
+    padding: 5px 10px;
     margin: 0 2px;
     background-color: #363;
     border: 1px solid #fff;
@@ -49,6 +83,6 @@ margin: none;
     display: block;
 }
 #social-icons li img{
-    height: 50px;
+    height: 25px;
     width: auto;
 }
